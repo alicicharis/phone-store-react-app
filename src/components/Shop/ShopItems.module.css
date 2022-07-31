@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+.shop {
+  margin-top: 5rem;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}

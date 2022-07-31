@@ -1,0 +1,42 @@
+.button {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 125px;
+  background-color: black;
+  border-radius: 25px;
+  align-items: center;
+  cursor: pointer;
+  height: 50px;
+  transition: 0.3s ease;
+}
+h2 {
+  width: 100%;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: rgb(230, 230, 230);
+  color: black;
+}
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
